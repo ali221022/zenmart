@@ -227,7 +227,6 @@
     align-items: center;
     border-right: 1px solid rgb(255, 255, 255);
     
-    
 }
 
 
@@ -237,6 +236,7 @@
 }
 
 .browse_box span {
+    margin-left: 10px;
     font-family: Jost;
     font-style: normal;
     font-size: 16px;
@@ -247,7 +247,7 @@
 
 .navbar_bott_menu_box .navbar_route_menu {
     margin-left: 12px;
-    width: 710px;
+    width: 690px;
     display: flex;
     flex-direction: row;
 }
