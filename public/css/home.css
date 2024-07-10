@@ -57,74 +57,6 @@
     border-bottom: 2px solid rgb(4, 30, 66);
 }
 
-/**Pagination**/
-
-.container .pagionation_box {
-    margin-top: 30px;
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.container .pagionation_box .pagination_main {
-    width: auto;
-    height: 24px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.container .pagination_main img {
-    cursor: pointer;
-}
-
-.container .pagination_main .pagination_dot {
-    margin: 0 20px;
-    display: flex;
-    flex-direction: row;
-}
-
-.container .pagination_dot .dot{
-    width: 20px;
-    height: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.container .pagination_dot .dot.active {
-    border: 2px solid rgb(17, 33, 55);
-}
-
-.container .pagination_dot .dot div {
-    width: 4px;
-    height: 4px;
-    background: rgb(17, 33, 55);
-}
-
-.container .hover_border {
-    width: 32px;
-    height: 2px;
-
-   background: rgb(4, 30, 66);
-}
-
-.container .next_prev_box {
-    width: 25px;
-}
-
-.container .next_prev_box img {
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-}
-
 /*PRODUCT CARD*/
 
 .container .product_boxes .product_box {
@@ -182,7 +114,7 @@
 
 .container .product_content_box {
     padding: 5px 22px;
-    margin-top: 25px;
+    /* margin-top: 25px;*/
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -268,7 +200,76 @@
     color: rgb(98, 105, 116);
 }
 
+**Pagination**/
 
+.container .pagionation_box {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .pagionation_box .pagination_main {
+    width: auto;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .pagination_main img {
+    cursor: pointer;
+}
+
+.container .pagination_main .pagination_dot {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .pagination_dot .dot{
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.container .pagination_dot .dot.active {
+    border: 2px solid rgb(17, 33, 55);
+}
+
+.container .pagination_dot .dot div {
+    width: 4px;
+    height: 4px;
+    background: rgb(17, 33, 55);
+}
+
+.container .hover_border {
+    width: 32px;
+    height: 2px;
+
+   background: rgb(4, 30, 66);
+}
+
+.container .next_prev_box {
+    width: 25px;
+}
+
+.container .next_prev_box img {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+/*Adv_frame*/
 
 .home_page .adv_frame {
     margin-top: 90px;
@@ -624,7 +625,7 @@
     
 }
 
-
+/*Adv_frame*/
 
 .home_page .adv_frame {
     margin-top: 90px;

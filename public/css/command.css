@@ -23,6 +23,8 @@ p {
     display: flex;
 }
 
+
+
 /*NAVBAR*/
 
 .navbar_frame {
@@ -315,6 +317,7 @@ p {
 /*FOOTER*/
 
 .footer_frame {
+    margin-top: 30px;
     position: relative;
     padding: 90px 0 20px;
     width: 100%;
